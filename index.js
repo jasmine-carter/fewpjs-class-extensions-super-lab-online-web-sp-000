@@ -11,5 +11,9 @@ class Tree {
 class Deciduous extends Tree {
   constructor(species, name) {
     super.species = species
+    this.name = name
+  }
+  static super.definition(){
+    return "Deciduous trees shed their leaves annually."
   }
 }
